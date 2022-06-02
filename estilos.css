@@ -1,64 +1,91 @@
 @charset "UTF-8";
 body {
-	background-image: url(imagenes/fondo_body.jpg);
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: 64px 64px;
-	margin-top: 5em;
-	margin-right: 0em;
-	margin-bottom: 0em;
-	margin-left: 5em;
+
+  background-attachment: scroll;
+  background-position: 64px 64px;
 }
+
+.main-container {
+  position: relative;
+  width: 752px;
+  height: 432px;
+  margin: calc(50vh - 216px) auto;
+  background-image: url(imagenes/fondo_body.jpg);
+  background-repeat: no-repeat;
+}
+
 #contenido {
-	clear: right;
-	height: 394px;
-	position: relative;
-	float: left;
-	visibility: visible;
-	text-align: right;
-	width: 584px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: 0.9em;
-	color: #F69;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.9em;
+  position: relative;
+  visibility: visible;
+  float: left;
+  clear: right;
+  width: 584px;
+  height: 394px;
+  text-align: right;
+  color: #F69;
 }
+
+#contenido p {
+  padding: 1rem;
+}
+
 #menu {
-	background-image: url(imagenes/fondo_menu.jpg);
-	background-repeat: no-repeat;
-	height: 394px;
-	width: 130px;
-	padding-top: 230px;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 0.7em;
-	margin: 2px;
-	color: #FF6699;
-	float: left;
-	clear: left;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.7em;
+  float: left;
+  clear: left;
+  width: 130px;
+  height: 394px;
+  margin: 2px;
+  padding-top: 236px;
+  color: #FF6699;
+  background-image: url(imagenes/fondo_menu.jpg);
+  background-repeat: no-repeat;
 }
+
 #menu a:link {
-	color: #FF6699;
-	text-decoration: none;
+  text-decoration: none;
+  color: #FF6699;
 }
+
 #menu a:visited {
-	text-decoration: none;
-	color: #FF6699;
+  text-decoration: none;
+  color: #FF6699;
 }
+
 #menu a:hover {
-	text-decoration: underline;
-	color: #FF6699;
-	font-weight: bolder;
+  font-weight: bolder;
+  text-decoration: underline;
+  color: #FF6699;
 }
+
 #menu a:active {
-	text-decoration: none;
-	color: #66C;
+  text-decoration: none;
+  color: #66C;
 }
+
 #pagina {
-	height: 400px;
-	width: 720px;
-	padding-top: 2px;
+  position: relative;
+  padding-top: 1rem;
+  width: calc(100% - 2rem);
+  height: calc(100% - 2rem);
+  margin: 1rem;
 }
+
+#footer {
+  position: relative;
+  width: calc(100% - 2rem);
+  margin: 1rem;
+  font-family: Verdana, sans-serif;
+  font-size: 0.8rem;
+}
+
 .fondo1 {
-	background-image: url(imagenes/fondopg_quiensoy.jpg);
+  background-image: url(imagenes/fondopg_quiensoy.jpg);
 }
+
 .fondo2 {
-	background-image: url(imagenes/fondopg_quehago.png);
+  background-image: url(imagenes/fondopg_quehago.png);
 }
