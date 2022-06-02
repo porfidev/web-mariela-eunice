@@ -1,0 +1,34 @@
+{
+  "name": "web-mariela-eunice",
+  "version": "1.0.0",
+  "description": "Sitio web personal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porfidev/web-mariela-eunice.git"
+  },
+  "keywords": [
+    "web",
+    "site",
+    "plain",
+    "jquery",
+    "static",
+    "desarrollo",
+    "programacion",
+    "freelance"
+  ],
+  "author": "Porfirio Chávez <hola@porfi.dev>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/porfidev/web-mariela-eunice/issues"
+  },
+  "homepage": "https://github.com/porfidev/web-mariela-eunice#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "prettier": "^2.6.2"
+  }
+}
